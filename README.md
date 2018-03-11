@@ -9,3 +9,5 @@ The backend implementation includes a package, the Wunderground package with one
 http://api.wunderground.com/api/4f5c6f5fc02cc1c2/history_20180305/q/NY/New_York.json
 
 the values that are needed from the frontend part. The class includes 7 methods. The 2 methods, i.e. readAll, readJSONFromUrl are used to read the GET Request from the link above. The setJSONWunderground is used to assign the value of the request to a static variable, i.e. json, which is going to be used by the other 4 methods in order to get the value in interest. The getMaxPercentageHumidity,the getMaxTempInCelcium, getMinTempInCelcium and the getPrecipitationInMM are the methods which read from the json object the corresponding values which are requested from the frontend part.
+
+Finally the java-json.jar library has been used which transforms a json request to a JSON object. This is used to get the corresponding value from the link above.
