@@ -63,7 +63,7 @@ public class apiWunderground {
         
     }
     
-    public static String getMaxPercentageHumidity() throws JSONException{
+    public static String getMaxPercentageHumidity() {
         
         String max;
         try{
